@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "test",
+      "email": "mail@mail.fr",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "username": "Florianfifteen",
+      "password": "Pwd4florian"
+    }
+  ],
+  "champions": [
+    {
+      "nom": "Arthus",
+      "lv": 18,
+      "hp": 999,
+      "ap": 100,
+      "id_user": "1",
+      "id": 1
+    },
+    {
+      "nom": "Mimi",
+      "lv": 18,
+      "hp": 123,
+      "ap": 111,
+      "id_user": "1",
+      "id": 2
+    },
+    {
+      "nom": "Zyc",
+      "lv": 234,
+      "hp": 1234,
+      "ap": 1342,
+      "id_user": "1",
+      "id": 3
+    },
+    {
+      "nom": "Karym",
+      "lv": 13,
+      "hp": 13,
+      "ap": 24,
+      "id_user": "1",
+      "id": 4
+    },
+    {
+      "nom": "Zarako",
+      "lv": 12,
+      "hp": 41,
+      "ap": 213,
+      "id_user": "1",
+      "id": 5
+    },
+    {
+      "nom": "Ugo",
+      "lv": 13,
+      "hp": 42,
+      "ap": 13,
+      "id_user": "1",
+      "id": 6
+    },
+    {
+      "nom": "Nolan",
+      "lv": 13,
+      "hp": 24,
+      "ap": 12,
+      "id_user": "1",
+      "id": 7
+    },
+    {
+      "nom": "Sauna",
+      "lv": 123,
+      "hp": 23,
+      "ap": 24,
+      "id_user": "1",
+      "id": 8
+    },
+    {
+      "nom": "Berouth",
+      "lv": 12,
+      "hp": 42,
+      "ap": 123,
+      "id_user": "1",
+      "id": 9
+    },
+    {
+      "nom": "Anni",
+      "lv": 32,
+      "hp": 2,
+      "ap": 42,
+      "id_user": "1",
+      "id": 10
+    },
+    {
+      "nom": "Migale",
+      "lv": 23,
+      "hp": 23,
+      "ap": 23,
+      "id_user": "1",
+      "id": 11
+    },
+    {
+      "nom": "Bruce Lee",
+      "lv": 23,
+      "hp": 43,
+      "ap": 2132,
+      "id_user": "1",
+      "id": 12
+    },
+    {
+      "nom": "Xinao",
+      "lv": 23,
+      "hp": 421,
+      "ap": 2425,
+      "id_user": "1",
+      "id": 13
+    },
+    {
+      "nom": "River",
+      "lv": 24,
+      "hp": 12,
+      "ap": 24,
+      "id_user": "1",
+      "id": 14
+    },
+    {
+      "nom": "LuxeSky",
+      "lv": 12,
+      "hp": 24,
+      "ap": 132,
+      "id_user": "2",
+      "id": 15
+    }
+  ],
+  "sorts": [
+    {
+      "nom": "Renaissance",
+      "degat": 0,
+      "ratio": 0,
+      "description": "Lorsqu'il meurt, Arthus prend une forme spirituelle qui lui permet de continuer à lancer des sorts pendant 7 sec.",
+      "id_champion": "1",
+      "id": 1
+    },
+    {
+      "nom": "Dévastation",
+      "degat": 293,
+      "ratio": 0.4,
+      "description": "Arthus crée une explosion à retardement, infligeant des dégâts aux ennemis proches.",
+      "id_champion": "1",
+      "id": 2
+    },
+    {
+      "nom": "Mur de douleur",
+      "degat": 0,
+      "ratio": 0,
+      "description": "Arthus crée un mur d'énergie. Les ennemis franchissant le mur voient leur vitesse de déplacement et leur résistance magique temporairement réduites.",
+      "id_champion": "1",
+      "id": 3
+    },
+    {
+      "nom": "Souilleur",
+      "degat": 89,
+      "ratio": 0.2,
+      "description": "Arthus vole passivement l'énergie de ses victimes, gagnant du mana à chaque élimination. Il peut aussi s'immerger dans les âmes de ses proies, infligeant des dégâts aux ennemis proches mais au prix d'une grande perte de mana.",
+      "id_champion": "1",
+      "id": 4
+    },
+    {
+      "nom": "Requiem for a dream",
+      "degat": 123,
+      "ratio": 23,
+      "description": "Après une canalisation de  secondes, Arthus inflige des dégâts à tous les champions ennemis.",
+      "id_champion": "1",
+      "id": 5
+    }
+  ]
+}
