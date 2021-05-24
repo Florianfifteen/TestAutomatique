@@ -45,7 +45,6 @@ def __repr__():
 def up():
     """
     Just for test if API is up
-
     Returns :
     {string} -- OK if API is up
     """
@@ -68,15 +67,16 @@ def query_records():
     return jsonify(tab_apiperson)
 
 
-# Route : /personne/only?nom=HOCHART&prenom=Florian
+# Route : /personne/only?id=1&nom=Robache&prenom=Florian
 # Méthode : GET
 # Récupérer les informations d'une personne
 
 @app.route('/personne/only', methods=['GET'])
 def query_record():
+    id = request.args.get('id', False)
     nom = request.args.get('nom')
     prenom = request.args.get('prenom')
-    personne = Personne.objects(nom=nom, prenom=prenom).first()
+    personne = Personne.objects(id=id, nom=nom, prenom=prenom).first()
     if not personne:
         return jsonify({'error': 'data not found'})
     else:
@@ -112,11 +112,13 @@ def create_record():
 @cross_origin()  # allow all origins all methods.
 def delete_record():
     record = request.form
+    pid = record['id']
     name = record['nom']
     firstname = record['prenom']
+    id = pid
     nom = name
     prenom = firstname
-    personne = Personne.objects(nom=nom, prenom=prenom).first()
+    personne = Personne.objects(id=id, nom=nom, prenom=prenom).first()
     if not personne:
         return jsonify({'error': 'data not found'})
     else:
